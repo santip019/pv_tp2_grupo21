@@ -6,8 +6,7 @@
     <title>Ejercicio 5</title>
     <script>
         // Ejercicio 15: Crear un objeto con propiedades y métodos
-        let retornarMes = () => {
-            let numero=9; // Cambia este valor para probar diferentes meses
+        let retornarMes = (numero) => {
             switch (numero) {
                 case 1:
                     return "Enero";
@@ -37,9 +36,9 @@
                     return "No es un mes";
             }
         };
-
+        let numero=9; // Cambia este valor para probar diferentes meses
         // Llamar al método retornarMes
-        let mes = retornarMes();
+        let mes = retornarMes(numero);
         console.log(mes);
         </script>
 </head>
