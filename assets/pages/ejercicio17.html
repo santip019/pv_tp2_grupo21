@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+
+    <script>
+        let contarLetraA = (palabra) => {
+            let resultado = 0;
+            for (let i = 0; i < palabra.length; i++) {
+                if (palabra[i] == 'a') {
+                    resultado++;
+                }
+            }
+            console.log("Cantidad de veces que aparece la letra 'a': " + resultado);
+            window.alert("Cantidad de veces que aparece la letra 'a': " + resultado);
+        }
+
+        let palabra = prompt("Por favor, ingrese una palabra:");
+        console.log("Palabra ingresada: " + palabra);
+        
+        //let palabra = "banana";
+        contarLetraA(palabra);
+    </script>
+</head>
+
+<body></body>
+    <p>Ejercicio 17</p>
+</body>
+</html>
